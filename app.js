@@ -3,7 +3,7 @@ const session = require('express-session');
 const passport = require('passport');								
 const WebAppStrategy = require('ibmcloud-appid').WebAppStrategy;
 const app = express();
-var port = process.env.PORT | 3000;
+var port = process.env.PORT || 3000;
 app.use(session({
 	secret: '123456',
 	resave: true,
@@ -281,5 +281,5 @@ app2.put('/update-document', function (req, res) {
 });
 
 app2.listen(port2, () => {
-  console.log("server is running on port2 : " + port2)
+  console.log("server is running on port : " + port2)
 });
