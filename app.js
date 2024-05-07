@@ -3,7 +3,7 @@ const session = require('express-session');
 const passport = require('passport');								
 const WebAppStrategy = require('ibmcloud-appid').WebAppStrategy;
 const app = express();
-var port = process.env.PORT | 8000;
+var port = process.env.PORT | 3000;
 app.use(session({
 	secret: '123456',
 	resave: true,
