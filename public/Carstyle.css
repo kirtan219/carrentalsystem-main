@@ -1,0 +1,123 @@
+/* Style the header */
+body {
+	background-color: #000000;
+}
+
+header {
+	background-color: black;
+	color: #00ff77;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav li a {
+	display: block;
+
+	color: #00ff77;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #ffffff;
+}
+
+/* Style the main content section */
+main {
+	padding: 20px;
+}
+
+section {
+	margin-top: 20px;
+}
+
+h2 {
+
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+#home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	color: #00ff77;
+	background-color: #000000;
+}
+
+.container {
+	text-align: center;
+}
+
+.car {
+	display: inline-block;
+	align-items: center;
+	margin: 10px;
+	border: 5px solid #00ff77;
+	padding: 10px;
+	width: 250px;
+	text-align: center;
+}
+
+.car img {
+	align-items: center;
+	max-width: 100%;
+	height: auto;
+}
+
+.car h3 {
+	font-size: 18px;
+	color: #00ff77;
+	margin: 10px 0 0;
+}
+
+.car p {
+	font-size: 16px;
+	color: #00ff77;
+	margin: 0;
+}
+
+.car button {
+	margin-top: 10px;
+	background-color: #000000;
+	color: #00ff77;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.car button:hover {
+	background-color: #ffffff;
+}
+
+/* Style the footer */
+footer {
+	background-color: black;
+	color: #00ff77;
+	text-align: center;
+	padding: 10px;
+	position: bottom;
+	bottom: 0;
+	width: 100%;
+}

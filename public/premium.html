@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Rental</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+    h2,h3{
+        font-family:Algerian, serif ;
+    }
+
+    body {
+        background: linear-gradient(to right, #000000, #ffffff, #000000);
+        background-size: 200% 100%;
+        animation: gradientAnimation 15s ease infinite alternate;
+        font-family: Algerian, serif;
+    }
+
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 0% 0%;
+        }
+        100% {
+            background-position: 100% 0%;
+        }
+    }
+
+    .w3-top {
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .gradient-text-container {
+        text-align: center;
+        background: linear-gradient(to right, #ffffff, #000000, #ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .w3-main {
+        margin-top: 150px;
+    }
+
+    .w3-col.s3 {
+        width: 25%;
+        float: left;
+    }
+
+    .car-container {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #f9f9f9;
+    }
+
+    .car-container:hover {
+        background-color: #e0e0e0;
+    }
+
+    .car-container img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .car-info {
+        text-align: center;
+    }
+
+    .book-now-btn {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .book-now-btn:hover {
+        background-color: #333;
+    }
+    footer {
+   
+   color: #000000;
+   text-align: center;
+   padding: 20px 0;
+  
+}
+
+</style>
+</head>
+<body>
+
+<div class="w3-top">
+    <div class="gradient-text-container">
+        <h2 class="w3-center">Available Super Car</h2>
+    </div>
+</div>
+
+<div class="w3-main w3-content">
+
+<!-- First Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center" id="cars">
+    <div class="w3-col s3">
+        <a href="http://localhost:7000/" class="car-container">
+            <img src="P1.1.png" alt="Car 2">
+            <div class="car-info">
+                <h2>rolls-royce</h2>
+                <h3>phantom VI </h3>
+                <p>95,000 INR Per Hour</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+        </a>
+    </div>
+
+    <div class="w3-col s3">
+        <a href="http://localhost:7000/" class="car-container">
+            <img src="P2.1.png" alt="Car 3">
+            <div class="car-info">
+                <h2>Audi</h2>
+                <h3>A8L</h3>
+                <p>80,000 INR Per Hour</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+        </a>
+    </div>
+
+    <div class="w3-col s3">
+        <a href="http://localhost:7000/" class="car-container">
+            <img src="P3.1.png" alt="Car 6">
+            <div class="car-info">
+                <h2>BMW</h2>
+                <h3>7 Series</h3>
+                <p>86,000 INR Per Hour</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+        </a>
+    </div>
+
+    <div class="w3-col s3">
+        <a href="http://localhost:7000/" class="car-container">
+            <img src="P4.1.png" alt="Car 8">
+            <div class="car-info">
+                <h2>mercedes maybach</h2>
+                <h3>S-Class</h3>
+                <p>80,000 INR Per Hour</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+        </a>
+    </div>
+</div>
+
+</div>
+<footer>
+    <p>&copy; 2024 Car Rental System</p>
+</footer>
+
+</body>
+</html>
