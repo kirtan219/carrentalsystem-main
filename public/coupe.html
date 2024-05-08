@@ -102,7 +102,7 @@
 
 <div class="w3-top">
     <div class="gradient-text-container">
-        <h2 class="w3-center">Available Super Car</h2>
+        <h2 class="w3-center">Available Cars</h2>
     </div>
 </div>
 
@@ -112,7 +112,7 @@
 <div class="w3-row-padding w3-padding-16 w3-center" id="cars">
     <div class="w3-col s3">
         <a href="button.html" class="car-container">
-            <img src="C1.1.png" alt="Car 2">
+            <img src="images/jaguar1.jpeg" alt="Car 2">
             <div class="car-info">
                 <h2>Jaguvar</h2>
                 <h3>F-Type</h3>
@@ -124,7 +124,7 @@
 
     <div class="w3-col s3">
         <a href="button.html" class="car-container">
-            <img src="C2.1.png" alt="Car 3">
+            <img src="images/lexus.jpg" alt="Car 3">
             <div class="car-info">
                 <h2>lexus</h2>
                 <h3>LC</h3>
@@ -136,7 +136,7 @@
 
     <div class="w3-col s3">
         <a href="button.html" class="car-container">
-            <img src="C3.1.png" alt="Car 6">
+            <img src="images/porsche.jpg" alt="Car 6">
             <div class="car-info">
                 <h2>porsche</h2>
                 <h3>911</h3>
@@ -148,7 +148,7 @@
 
     <div class="w3-col s3">
         <a href="button.html" class="car-container">
-            <img src="C4.1.png" alt="Car 8">
+            <img src="images/mercedes.jpg" alt="Car 8">
             <div class="car-info">
                 <h2>mercedes</h2>
                 <h3>GLC-43</h3>
@@ -163,6 +163,19 @@
 <footer>
     <p>&copy; 2024 Car Rental System</p>
 </footer>
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "82036c03-5d16-460c-acd3-dc787e76237e", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "875fb397-a82b-4839-ad66-a9278357c280", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
 
 </body>
 </html>
