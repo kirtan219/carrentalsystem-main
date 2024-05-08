@@ -21,7 +21,7 @@ passport.use(new WebAppStrategy({
 	clientId: "89a02320-2e0f-4960-8fed-b809778384e7",
 	secret: "YjVjNGI4MTItZjMzNC00NDlmLTkzZTgtNTFhZWU1OGFjODZm",
 	oauthServerUrl: "https://au-syd.appid.cloud.ibm.com/oauth/v4/5fb6b9e7-dd68-4a97-81a9-194c48c88be5",
-	redirectUri: `https://kirtanproject.1e7x09ugpu68.au-syd.codeengine.appdomain.cloud/${port}/appid/callback`,
+	redirectUri: `https://kirtanproject.1e7x09ugpu68.au-syd.codeengine.appdomain.cloud/appid/callback`,
 }));
 
 
